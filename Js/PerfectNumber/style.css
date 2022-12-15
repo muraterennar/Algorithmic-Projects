@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: 0.3s all;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+body {
+  background-image: url(./assets/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.container {
+  width: 90%;
+  height: 90vh;
+  background-color: rgba(160, 160, 160, 0.45);
+  padding: 20px;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f1f1f1;
+}
+
+input {
+  border-radius: 5px;
+  box-shadow: none;
+  border: none;
+}
+
+.title {
+  margin-top: 8%;
+  margin-bottom: 5%;
+  font-size: 2rem;
+  color: #bbdd25;
+}
+
+.label {
+  color: #292929;
+}
+
+.input{
+    color: #f1f1f1;
+    background-color: rgba(41, 41, 41, 0.5);
+    height: 25px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+
+.results {
+  margin-top: 15px;
+  color: #292929;
+}
+
+.btn {
+  margin-top: 20px;
+  background-color: #bbdd25;
+  border: 1px solid #bbdd25;
+  border-radius: 10px;
+  width: 100px;
+  height: 35px;
+  color: #292929;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
